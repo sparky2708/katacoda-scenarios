@@ -9,26 +9,6 @@
       "title": "Read data",
       "text": "read_data.md"
     },
-    {
-      "title": "Tokenizing",
-      "text": "tokenizing.md"
-    },
-    {
-      "title": "Counting words",
-      "text": "word_count.md"
-    },
-    {
-      "title": "Part of speech tagging",
-      "text": "pos.md"
-    }
-    ],
-    "intro": {
-      "text": "intro.md",
-      "credits": ""
-    },
-    "finish": {
-      "text": "finish.md"
-    },
     "assets": {
       "client": [{"file": "data_reader.py", "target": "~/"}]
     }
