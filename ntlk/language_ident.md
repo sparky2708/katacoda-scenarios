@@ -31,7 +31,7 @@ for language in stopwords.fileids():
     common_elements = words_set.intersection(stopwords_set)
     languages_ratios[language] = len(common_elements) # language "score"`{{execute}}
     
-Let's see how it scored our sentence:
+Let's see how the language detector scored our sentence:
 
 `language_ratios`{{execute}}
 
