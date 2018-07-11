@@ -4,7 +4,7 @@ Let's create a text string we will use for determining language
 
 Now, let's tokenize the text using the WordPunct tokenizer because we would like the punctuation marks to be exluded from the words:
 `from nltk import wordpunct_tokenize
-wordpunct_tokenize()`{{execute}}
+wordpunct_tokenize(text)`{{execute}}
 
 In order to build our language analyzer we will look at stop words that are present in different languages but let's see
 which languages nltk supports right from the box:
@@ -27,4 +27,4 @@ for language in stopwords.fileids():
 
 And for completeness let's just select the language with the biggest score:
 `most_applicable_language = max(languages_ratios, key=languages_ratios.get)
-most_applicable_language'{{execute}}
+most_applicable_language`{{execute}}
