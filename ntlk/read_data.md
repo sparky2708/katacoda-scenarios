@@ -9,6 +9,6 @@ movie_reviews = data_reader.read_reviews()`{{execute}}
 
 Let's look at a few moview reviews to get a feel of the text
 
-`movie_review_idx = 23
+`movie_review_idx = 123
 sample_movie_review = movie_reviews[movie_review_idx]
 sample_movie_review`{{execute}}
