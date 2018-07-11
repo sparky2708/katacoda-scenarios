@@ -9,6 +9,13 @@
       "title": "Read data",
       "text": "read_data.md"
     }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
     "assets": {
       "client": [{"file": "data_reader.py", "target": "~/"}]
     }
