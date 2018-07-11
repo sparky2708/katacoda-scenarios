@@ -1,6 +1,6 @@
 Text Processing Tasks
 
-* Structure Extraction
+* Structure Extraction [Skipped]
 * Sentence, Phrase and Paragraph Boundaries
 * Word Tokenization
 * Acronym Normalization
