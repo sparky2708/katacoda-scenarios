@@ -13,4 +13,9 @@ or we can use the WordPuncTokenizer that splits all punctuations into separate t
 word_punct_tokenizer = WordPunctTokenizer()
 word_punct_tokenizer.tokenize("That's all folks")`{{execute}}
 
+or we can use the TreeBank word tokenizer:
+
+`from nltk.tokenize import TreebankWordTokenizer
+treebank_word_tokenizer = TreebankWordTokenizer()
+treebank_word_tokenizer.tokenize("That's all folks")`{{execute}}
 
