@@ -1,7 +1,7 @@
 Let's take a look at the sample review again.
 Notice that there are a lot of punctuation mistakes.
 
-`print(sample_moview_review)`{{execute}}
+`print(sample_movie_review)`{{execute}}
 
 In NLTK, the default sentence tokenizer is called the Punkt tokenizer.
 Let's load the Punkt tokenizer:
