@@ -27,7 +27,8 @@ for language in stopwords.fileids():
     stopwords_set = set(stopwords.words(language))
     words_set = set(words)
     common_elements = words_set.intersection(stopwords_set)
-    languages_ratios[language] = len(common_elements) # language "score"`{{execute}}
+    languages_ratios[language] = len(common_elements) # language "score"
+language_ratios`{{execute}}
 
 And for completeness let's just select the language with the biggest score:
 
