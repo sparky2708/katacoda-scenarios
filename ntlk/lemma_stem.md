@@ -7,6 +7,7 @@ porter_stemmer = PorterStemmer()`{{execute}}
 Let's see how the porter stemmer would stem:
 
 `porter_stemmer.stem("know")
+porter_stemmer.stem("knowing")
 porter_stemmer.stem("knowingly")
 porter_stemmer.stem("geese")
 porter_stemmer.stem("goose")`{{execute}}
@@ -19,6 +20,7 @@ wordnet_lemmatizer = WordNetLemmatizer()`{{execute}}
 Let's see how the lemmatizer deals with the same cases we tried with the stemmer:
 
 `wordnet_lemmatizer.lemmatize("know")
+wordnet_lemmatizer.lemmatize("knowing")
 wordnet_lemmatizer.lemmatize("knowingly")
 wordnet_lemmatizer.lemmatize("geese")
 wordnet_lemmatizer.lemmatize("goose")`{{execute}}
