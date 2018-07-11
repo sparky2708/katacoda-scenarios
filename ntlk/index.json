@@ -8,6 +8,38 @@
     {
       "title": "Read data",
       "text": "read_data.md"
+    },
+    {
+      "title": "Sentence Boundaries",
+      "text": "sent_boundaries.md"
+    },
+    {
+      "title": "Language Identification",
+      "text": "language_ident.md"
+    },
+    {
+      "title": "Word Tokenization",
+      "text": "word_token.md"
+    },
+    {
+      "title": "Acronym Normalization",
+      "text": "acronym.md"
+    },
+    {
+      "title": "Lemmatization / Stemming",
+      "text": "lemma_stem.md"
+    },
+    {
+      "title": "Entity Extraction",
+      "text": "entity_extract.md"
+    },
+    {
+      "title": "Phrase Extraction",
+      "text": "phrase_extract.md"
+    },
+    {
+      "title": "Macro Analysis: Sentiment Extraction",
+      "text": "sentiment_analysis.md"
     }],
     "intro": {
       "text": "intro.md",
