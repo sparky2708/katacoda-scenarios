@@ -14,12 +14,12 @@
       "text": "sent_boundaries.md"
     },
     {
-      "title": "Language Identification",
-      "text": "language_ident.md"
-    },
-    {
       "title": "Word Tokenization",
       "text": "word_token.md"
+    },
+    {
+      "title": "Language Identification",
+      "text": "language_ident.md"
     },
     {
       "title": "Acronym Normalization",
