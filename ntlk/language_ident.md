@@ -1,16 +1,21 @@
+Let's create a text string we will use for determining language
 
+`text="That's thirty minutes away. I'll be there in ten."`{{execute}}
+
+Now, let's tokenize the text using the WordPunct tokenizer because we would like the punctuation marks to be exluded from the words:
 `from nltk import wordpunct_tokenize
-wordpunct_tokenize("That's thirty minutes away. I'll be there in ten.")`{{execute}}
+wordpunct_tokenize()`{{execute}}
 
+In order to build our language analyzer we will look at stop words that are present in different languages but let's see
+which languages nltk supports right from the box:
 `from nltk.corpus import stopwords
 stopwords.fileids()`{{execute}}
-['danish', 'dutch', 'english', 'finnish', 'french', 'german', 'hungarian', 'italian', 'norwegian', 'portuguese', 'russian', 'spanish', 'swedish', 'turkish']
 
+Let's take a closer look at the words that are present in the English language:
 `stopwords.words('english')[0:10]`{{execute}}
-['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your']
 
-Some text goes here
-
+Using the stopwords let's build a simple language identifier that will count how many words in our sentence are found
+in each of the stop word lists. i.e. let's examine each word in our sentence to see how many stop words it contains:
 `languages_ratios = {}
 tokens = wordpunct_tokenize(text)
 words = [word.lower() for word in tokens]
@@ -20,7 +25,6 @@ for language in stopwords.fileids():
     common_elements = words_set.intersection(stopwords_set)
     languages_ratios[language] = len(common_elements) # language "score"`{{execute}}
 
-Some text
-
-languages_ratios
-{'swedish': 1, 'danish': 1, 'hungarian': 2, 'finnish': 0, 'portuguese': 0, 'german': 1, 'dutch': 1, 'french': 1, 'spanish': 0, 'norwegian': 1, 'english': 6, 'russian': 0, 'turkish': 0, 'italian': 2}
+And for completeness let's just select the language with the biggest score:
+`most_applicable_language = max(languages_ratios, key=languages_ratios.get)
+most_applicable_language'{{execute}}
