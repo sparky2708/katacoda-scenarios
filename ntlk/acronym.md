@@ -7,5 +7,7 @@ Simple dictionary:
 
 `abbrevs={'NBA':'National Basketball Association','NFL':'National Football League'}
 for abbrev in abbrevs:
-    text= text.replace(abbrev,abbrevs[abbrev])
-print(text)`{{execute}}
+    text= text.replace(abbrev,abbrevs[abbrev])`{{execute}}
+    
+Let's see how it was normalized:
+`print(text)`{{execute}}
