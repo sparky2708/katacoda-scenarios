@@ -3,7 +3,7 @@
 wordpunct_tokenize("That's thirty minutes away. I'll be there in ten.")`{{execute}}
 
 `from nltk.corpus import stopwords
-`stopwords.fileids()` {{execute}}
+stopwords.fileids()` {{execute}}
 ['danish', 'dutch', 'english', 'finnish', 'french', 'german', 'hungarian', 'italian', 'norwegian', 'portuguese', 'russian', 'spanish', 'swedish', 'turkish']
 
 `stopwords.words('english')[0:10]`{{execute}}
