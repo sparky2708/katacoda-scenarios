@@ -1,7 +1,7 @@
 
 Let's pick a text with an acronym:
 
-`text="Pep Guardiola, NBA & NFL Helped Turn England into Potential World Champions"`{{execute}}
+`text="Pep Guardiola, NBA & NFL helped turn England into potential world champions"`{{execute}}
 
 Simple dictionary:
 
