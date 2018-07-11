@@ -10,7 +10,6 @@ stopwords.fileids()` {{execute}}
 ['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your']
 
 `languages_ratios = {}
-
 tokens = wordpunct_tokenize(text)
 words = [word.lower() for word in tokens]
 
