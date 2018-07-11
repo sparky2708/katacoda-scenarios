@@ -20,7 +20,9 @@ Let's take a closer look at the words that are present in the English language:
 Using the stopwords let's build a simple language identifier that will count how many words in our sentence are found
 in each of the stop word lists. i.e. let's examine each word in our sentence to see how many stop words it contains:
 
-`languages_ratios = {}
+`from nltk import wordpunct_tokenize
+from nltk.corpus import stopwords
+languages_ratios = {}
 tokens = wordpunct_tokenize(text)
 words = [word.lower() for word in tokens]
 for language in stopwords.fileids():
