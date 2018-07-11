@@ -2,15 +2,13 @@ To start working with Python use the following command:
 
 `python`{{execute}}
 
-In this scenario we will be working with the [NLTK](https://www.nltk.org/) library. In some way we will repeat some work from the previous scenario using the library instead of vanilla Python.
-
-Let's read movie reviews again.
+Let's read the movie reviews that are supplied as a sample corpus within NLTK.
 
 `import data_reader
 documents = data_reader.read_reviews()`{{execute}}
 
-Then we can look as an example document (feel free to change the index and load different document).
+Let's look at a few moview reviews to get a feel of the text
 
-`example_idx = 123
+`example_idx = 52
 document = documents[example_idx]
 document`{{execute}}
