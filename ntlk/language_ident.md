@@ -33,7 +33,7 @@ for language in stopwords.fileids():
     
 Let's see how the language detector scored our sentence:
 
-`language_ratios`{{execute}}
+`languages_ratios`{{execute}}
 
 And for completeness let's just select the language with the biggest score:
 
