@@ -5,12 +5,12 @@ We can use the PunktWordTokenizer which splits on punctuation but keeps it with 
 
 `from nltk.tokenize import PunktWordTokenizer
 punkt_word_tokenizer = PunktWordTokenizer()
-punkt_word_tokenizer.tokenize(“That's all folks”)`{{execute}}
+punkt_word_tokenizer.tokenize("That's all folks")`{{execute}}
 
 or we can use the WordPuncTokenizer that splits all punctuations into separate tokens:
 
 `from nltk.tokenize import WordPunctTokenizer
 word_punct_tokenizer = WordPunctTokenizer()
-word_punct_tokenizer.tokenize(“That's all folks”)`{{execute}}
+word_punct_tokenizer.tokenize("That's all folks")`{{execute}}
 
 
