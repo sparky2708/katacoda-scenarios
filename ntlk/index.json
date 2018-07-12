@@ -6,10 +6,6 @@
   "details": {
     "steps": [
     {
-      "title": "Read data",
-      "text": "read_data.md"
-    },
-    {
       "title": "Sentence Boundaries",
       "text": "sent_boundaries.md"
     },
@@ -30,15 +26,15 @@
       "text": "lemma_stem.md"
     },
     {
-      "title": "Entity Extraction",
+      "title": "Entity/Phrase Extraction",
       "text": "entity_extract.md"
     },
     {
-      "title": "Phrase Extraction",
-      "text": "phrase_extract.md"
+      "title": "Read Movie Data For Sentiment Analysis",
+      "text": "read_data.md"
     },
     {
-      "title": "Macro Analysis: Sentiment Extraction",
+      "title": "Macro Analysis: Sentiment Analysis",
       "text": "sentiment_analysis.md"
     }],
     "intro": {
