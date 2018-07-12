@@ -15,10 +15,10 @@
       "title": "Sentiment Analysis Features Setup (Common Words)",
       "text": "sentiment_analysis_features.md"
     },
-	 {
+	{
       "title": "Sentiment Analysis Classifier",
       "text": "sentiment_analysis_classifier.md"
-    }
+    },
     {
       "title": "Sentiment Analysis Features Setup (POS & NEG Reviews)",
       "text": "sentiment_analysis_features2.md"
