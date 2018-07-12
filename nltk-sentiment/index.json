@@ -12,7 +12,11 @@
       "text": "sentiment_analysis_reviews.md"
     },
 	{
-      "title": "Sentiment Analysis Features Setup (Common Words)",
+      "title": "Sentiment Analysis Features Setup (Common Words) 1/2",
+      "text": "sentiment_analysis_words.md"
+    },
+	{
+      "title": "Sentiment Analysis Features Setup (Common Words) 2/2",
       "text": "sentiment_analysis_features.md"
     },
 	{
