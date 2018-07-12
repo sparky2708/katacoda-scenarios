@@ -24,15 +24,19 @@
       "text": "lemma_stem.md"
     },
     {
+      "title": "Part-Of-Speech Analysis",
+      "text": "pos_extract.md"
+    },  
+    {
       "title": "Entity/Phrase Extraction",
       "text": "entity_extract.md"
     },
     {
-      "title": "Read Movie Data For Sentiment Analysis",
+      "title": "CASE STUDY: Read Movie Data For Sentiment Analysis",
       "text": "read_data.md"
     },
     {
-      "title": "Macro Analysis: Sentiment Analysis",
+      "title": "CASE STUDY: Sentiment Analysis",
       "text": "sentiment_analysis.md"
     }],
     "intro": {
