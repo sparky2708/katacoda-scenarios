@@ -14,11 +14,13 @@ Least Common Words:
 Let's define a feature function that checks if the words in the movie review are present in
 the word features list:
 
-`def document_features(document):
+`
+def document_features(document):
     document_words = set(document)
+    word_features = [item[0] for item in most_common_words]
     features = {}
-    for word in all_cleaned_words:
-        features["contains(%s)" % word[0]] = (word[0] in document_words)
+    for word in word_features:
+        features["contains(%s)" % word] = (word in document_words)
     return features`{{execute}}
     
 Let's now create a feature set:
