@@ -12,7 +12,7 @@ print (len(movie_reviews.fileids('neg')))`{{execute}}
 
 
 `import data_reader
-movie_reviews = data_reader.read_reviews()`{{execute}}
+cleaned_reviews = data_reader.read_reviews()`{{execute}}
 
 Let's look at a few movie reviews to get a feel of the text
 
