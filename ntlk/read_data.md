@@ -14,8 +14,7 @@ Let's look at a few movie reviews to get a feel of the text
 sample_movie_review = movie_reviews[movie_review_idx]
 sample_movie_review`{{execute}}
 
-Import all the reviews into a tuple of <words, review>:
+Import all the reviews into an array of tuples of <words, category, raw_review>:
 
 `import data_reader
 reviews = data_reader.read_reviews()`{{execute}}
-
