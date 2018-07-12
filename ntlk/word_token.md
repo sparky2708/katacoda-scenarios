@@ -7,7 +7,6 @@ Let's set a sentence we will try to tokenize:
 We can use the Penn TreeBank word tokenizer which uses regular expressions to tokenize text:
 
 `from nltk.tokenize import TreebankWordTokenizer
-sent = 
 treebank_word_tokenizer = TreebankWordTokenizer()
 treebank_word_tokenizer.tokenize(sent)`{{execute}}
 
