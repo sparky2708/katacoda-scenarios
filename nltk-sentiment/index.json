@@ -1,0 +1,48 @@
+{
+  "title": "Sentiment Analysis in NLTK",
+  "description": "Sentiment Analysis in NLTK",
+  "details": {
+    "steps": [
+    {
+      "title": "Setup",
+      "text": "setup.md"
+    },
+    {
+      "title": "Read Movie Data For Sentiment Analysis",
+      "text": "sentiment_analysis_reviews.md"
+    },
+	{
+      "title": "Sentiment Analysis Features Setup (Common Words)",
+      "text": "sentiment_analysis_features.md"
+    },
+	 {
+      "title": "Sentiment Analysis Classifier",
+      "text": "sentiment_analysis_classifier.md"
+    }
+    {
+      "title": "Sentiment Analysis Features Setup (POS & NEG Reviews)",
+      "text": "sentiment_analysis_features2.md"
+    },
+    {
+      "title": "Sentiment Analysis Classifier",
+      "text": "sentiment_analysis_classifier.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "data_reader.py", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart using `python` command\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "python-nltk"
+  }
+}
