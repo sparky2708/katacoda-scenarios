@@ -36,12 +36,8 @@
       "text": "sentiment_analysis_reviews.md"
     },
     {
-      "title": "CASE STUDY: Sentiment Analysis Word List",
-      "text": "sentiment_analysis_words.md"
-    },
-    {
       "title": "CASE STUDY: Sentiment Analysis Features Setup",
-      "text": "sentiment_analysis_features.md"
+      "text": "sentiment_analysis_features2.md"
     },
     {
       "title": "CASE STUDY: Sentiment Analysis Classifier",
