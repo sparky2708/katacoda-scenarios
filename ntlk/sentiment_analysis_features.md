@@ -30,9 +30,9 @@ print (feature_set[0])`{{execute}}
 
 Let's use the first 400 as our training set and the remainder as our training set
 
-`train_set = feature_set[:400]
+`train_set = feature_set[400:]
 print (len(train_set))
-test_set = feature_set[400:]
+test_set = feature_set[:400]
 print (len(test_set))`{{execute}}
 
 Train the classifier:
