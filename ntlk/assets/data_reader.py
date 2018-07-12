@@ -17,3 +17,8 @@ def get_review_sentiment(doc):
 
 def get_review_words(doc):
     return doc[0]
+
+def get_all_words(reviews):
+    all_words = []
+    all_words = [word.lower() for word in movie_reviews.words()]
+    return all_words
