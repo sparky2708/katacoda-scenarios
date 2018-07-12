@@ -4,12 +4,12 @@ Let's create a feature function that will use the top 2,000 words found in all t
 Most Common Words:
 
 `print (len(all_words_freq))
-most_common_words = all_words_freq.most_common(2000)
+most_common_words = all_cleaned_words_freq.most_common(2000)
 print (most_common_words[:10])`{{execute}}
 
 Least Common Words:
 
-`print (most_common_words[1990:])` {{execute}}
+`print (most_common_words[1990:])`{{execute}}
 
 Let's define a feature function that checks if the words in the movie review are present in
 the word features list:
