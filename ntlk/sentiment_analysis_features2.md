@@ -28,10 +28,13 @@ the word features list:
     
 Let's now create a feature set:
 
+Positive Reviews:
 `pos_reviews_set = []
 for words in pos_reviews:
-    pos_reviews_set.append((bag_of_words(words), 'pos'))
-neg_reviews_set = []
+    pos_reviews_set.append((bag_of_words(words), 'pos'))`{{execute}}
+
+Negative Reviews:
+`neg_reviews_set = []
 for words in neg_reviews:
     neg_reviews_set.append((bag_of_words(words), 'neg'))`{{execute}}
 
