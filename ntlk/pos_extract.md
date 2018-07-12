@@ -9,3 +9,7 @@ We can invoke the Parts-Of-Speech tagger as follows:
 word_list = nltk.word_tokenize(sent)
 pos_tagged_tree = nltk.pos_tag(word_list)
 print(pos_tagged_tree)`{{execute}}
+
+To discover what the tags mean you can request all the tags that are used by the UPenn TreeBank:
+
+`nltk.help.upenn_tagset()`{{execute}}
