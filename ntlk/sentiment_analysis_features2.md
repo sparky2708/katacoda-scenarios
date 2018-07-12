@@ -33,12 +33,12 @@ Let's now create a feature set:
 Positive Reviews:
 `pos_reviews_set = []
 for words in pos_reviews:
-    pos_reviews_set.append((bag_of_words(words), 'pos'))`{{execute}}
+    pos_reviews_set.append((pos_neg_feature(words), 'pos'))`{{execute}}
 
 Negative Reviews:
 `neg_reviews_set = []
 for words in neg_reviews:
-    neg_reviews_set.append((bag_of_words(words), 'neg'))`{{execute}}
+    neg_reviews_set.append((pos_neg_feature(words), 'neg'))`{{execute}}
 
 Let's use the first 200 pos & 200 neg reviews as our test set and the rest as our training set
 
