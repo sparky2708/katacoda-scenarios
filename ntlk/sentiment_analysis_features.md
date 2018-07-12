@@ -17,10 +17,7 @@ the word features list:
 `def document_features(document):
     # "set" function will remove repeated/duplicate tokens in the given list
     document_words = set(document)
-    features = {}
-    for word in word_features:
-        features\["contains(%s)" % word\] = (word in document_words)
-    return features`{{execute}}
+   `{{execute}}
     
 Let's now create a feature set:
 
