@@ -1,3 +1,6 @@
+from nltk.corpus import stopwords
+import string
+
 def clean_all_words(all_words):
     all_words_clean = []
     stopwords_english = stopwords.words('english')
