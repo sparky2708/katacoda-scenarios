@@ -1,6 +1,6 @@
 
 
-Let's create a feature function that will find all words used in positive and negative reviews:
+Let's create a feature function that will classify by using the words found in positive and negative reviews:
 
 Positive Reviews:
 
@@ -47,9 +47,10 @@ Negative Reviews:
 for words in neg_reviews:
     neg_reviews_set.append((document_features(words), 'neg'))`{{execute}}
 
-Let's use the first 200 pos & 200 neg reviews as our test set and the rest as our training set
+Let's use the first 200 positive & 200 negative reviews as our test set and the rest as our training set
 
-`train_set = pos_reviews_set[200:] + neg_reviews_set[200:]
+`test_set = pos_reviews_set[:200] + neg_reviews_set[:200]
+print (len(test_set))
+train_set = pos_reviews_set[200:] + neg_reviews_set[200:]
 print (len(train_set))
-test_set = pos_reviews_set[:200] + neg_reviews_set[:200]
-print (len(test_set))`{{execute}}
+`{{execute}}

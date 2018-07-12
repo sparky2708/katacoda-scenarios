@@ -29,7 +29,7 @@ Let's now create a feature set:
 `feature_set = [(document_features(doc), category) for (doc, category, raw) in reviews]
 print (feature_set[0])`{{execute}}
 
-Let's use the first 400 as our test set and the remainder as our training set:
+Let's use the first 400 movie reviews as our test set and the remainder as our training set:
 
 `test_set = feature_set[:400]
 print (len(test_set))
