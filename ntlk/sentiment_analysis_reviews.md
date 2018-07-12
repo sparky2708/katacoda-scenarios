@@ -15,8 +15,9 @@ reviews = data_reader.read_reviews()`{{execute}}
 
 Let's look at a few movie reviews to get a feel of the text
 
-`movie_review_idx = 123
-print(get_review_category(reviews[movie_review_idx]))
-print(get_review_raw(reviews[movie_review_idx]))`{{execute}}
+`import data_reader
+movie_review_idx = 123
+print(data_reader.get_review_category(reviews[movie_review_idx]))
+print(data_reader.get_review_raw(reviews[movie_review_idx]))`{{execute}}
 
 
