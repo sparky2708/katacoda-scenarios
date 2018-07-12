@@ -33,11 +33,19 @@
     },
     {
       "title": "CASE STUDY: Read Movie Data For Sentiment Analysis",
-      "text": "read_data.md"
+      "text": "sentiment_analysis_reviews.md"
     },
     {
-      "title": "CASE STUDY: Sentiment Analysis",
-      "text": "sentiment_analysis.md"
+      "title": "CASE STUDY: Sentiment Analysis Word List",
+      "text": "sentiment_analysis_words.md"
+    },
+    {
+      "title": "CASE STUDY: Sentiment Analysis Features Setup",
+      "text": "sentiment_analysis_features.md"
+    },
+    {
+      "title": "CASE STUDY: Sentiment Analysis Classifier",
+      "text": "sentiment_analysis_classifier.md"
     }],
     "intro": {
       "text": "intro.md",
