@@ -8,13 +8,15 @@ print (movie_reviews.categories())
 print (len(movie_reviews.fileids('pos')))
 print (len(movie_reviews.fileids('neg')))`{{execute}}
 
-Let's look at a few movie reviews to get a feel of the text
-
-`movie_review_idx = 123
-sample_movie_review = movie_reviews[movie_review_idx]
-sample_movie_review`{{execute}}
-
 Import all the reviews into an array of tuples of <words, category, raw_review>:
 
 `import data_reader
 reviews = data_reader.read_reviews()`{{execute}}
+
+Let's look at a few movie reviews to get a feel of the text
+
+`movie_review_idx = 123
+print(get_review_category(reviews[movie_review_idx]))
+print(get_review_raw(reviews[movie_review_idx]))`{{execute}}
+
+
