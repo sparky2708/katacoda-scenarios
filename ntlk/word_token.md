@@ -19,9 +19,9 @@ word_punct_tokenizer.tokenize(sent)`{{execute}}
 There is also a tokenizer specialized to parsing Tweets. 
 Let's pick a sample tweet:
 
-`tweet = "@remy: This is waaaaayyyy too much for you!!!!!! :-P"`{{execute}}
+`tweet = "@remy This is waaaaayyyy too much for you!!!!!! #funnygetups :-P"`{{execute}}
 
 and let's try to run the tweet through the tweet tokenizer
 `from nltk.tokenize import TweetTokenizer
-tweet_tokenizer = TweetTokenizer()
+tweet_tokenizer = TweetTokenizer(strip_handles=True)
 tweet_tokenizer.tokenize(tweet)`{{execute}}
