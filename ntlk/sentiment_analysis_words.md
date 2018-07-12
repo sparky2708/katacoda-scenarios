@@ -7,9 +7,9 @@ print (all_words[:10])`{{execute}}
 Let's look at the frequency distribution of all the words:
 
 `from nltk import FreqDist
- all_words_freq = FreqDist(all_words)
- print (all_words_freq)
- print (all_words_freq.most_common(10))`{{execute}}
+all_words_freq = FreqDist(all_words)
+print (all_words_freq)
+print (all_words_freq.most_common(10))`{{execute}}
  
 Since our most frequent words are not very helpful we should clean the data a bit
 and remove stopwords and puctuation
@@ -19,8 +19,8 @@ and remove stopwords and puctuation
 Let's look at the frequency distribution again:
 
 `from nltk import FreqDist
- all_cleaned_words_freq = FreqDist(all_cleaned_words)
- print (all_cleaned_words_freq)
- print (all_cleaned_words_freq.most_common(10))`{{execute}}
+all_cleaned_words_freq = FreqDist(all_cleaned_words)
+print (all_cleaned_words_freq)
+print (all_cleaned_words_freq.most_common(10))`{{execute}}
  
  
