@@ -19,7 +19,9 @@ for fileid in movie_reviews.fileids('neg'):
 Let's define a feature function that checks if the words in the movie review are present in
 the word features list:
 
-`def pos_neg_feature(words):
+`from nltk.corpus import stopwords
+import string
+def pos_neg_feature(words):
     words_clean = []
     for word in words:
         word = word.lower()
