@@ -1,12 +1,11 @@
 Text Processing Tasks
 
-* Structure Extraction [Skipping]
 * Sentence, Phrase and Paragraph Boundaries
 * Word Tokenization
 * Acronym Normalization
 * Lemmatization / Stemming
-* Entity Extraction (people, places, things)
-* Phrase Extraction
+* Parts-Of-Speech Extraction
+* Entity/Phrase Extraction (people, places, things)
+* CASE STUDY: Sentiment Analysis  
 
-It starts with preparing text for further processing. 
 Preparing data using [NLTK](https://www.nltk.org/).
