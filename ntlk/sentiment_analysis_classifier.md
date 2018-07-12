@@ -1,6 +1,8 @@
 Let's train the classifier:
 
 `from nltk import classify 
+from nltk import NaiveBayesClassifier
+classifier = NaiveBayesClassifier.train(train_set)`{{execute}}
 accuracy = classify.accuracy(classifier, test_set)
 print (accuracy)`{{execute}}
 
