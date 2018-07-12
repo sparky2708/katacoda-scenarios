@@ -6,7 +6,6 @@ Let's create a feature function that will find all words used in positive and ne
 for fileid in movie_reviews.fileids('pos'):
     words = movie_reviews.words(fileid)
     pos_reviews.append(words)
- 
 neg_reviews = []
 for fileid in movie_reviews.fileids('neg'):
     words = movie_reviews.words(fileid)
