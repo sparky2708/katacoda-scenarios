@@ -1,7 +1,9 @@
 Let's take a look at the sample review again.
 Notice that there are a lot of punctuation mistakes.
 
-`print(sample_movie_review)`{{execute}}
+`import data_reader
+sample_movie_review = data_reader.read_reviews()[123]
+print(sample_movie_review)`{{execute}}
 
 In NLTK, the default sentence tokenizer is called the Punkt tokenizer.
 Let's load the Punkt tokenizer:
