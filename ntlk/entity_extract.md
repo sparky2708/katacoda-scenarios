@@ -8,4 +8,5 @@ Let's see if NLTK's pre-trained model will be able to decipher the entities in t
 `import nltk
 word_list = nltk.word_tokenize(sentence )
 pos_tagged_tree = nltk.pos_tag(word_list)
-entity_tree =  nltk.ne_chunk(pos_tagged_tree, binary=False)`{{execute}}
+entity_tree =  nltk.ne_chunk(pos_tagged_tree, binary=False)
+print(entity_tree)`{{execute}}
