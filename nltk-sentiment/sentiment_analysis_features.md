@@ -35,10 +35,3 @@ print (len(train_set))
 test_set = feature_set[:400]
 print (len(test_set))`{{execute}}
 
-Train the classifier:
-
-`from nltk import NaiveBayesClassifier
-classifier = NaiveBayesClassifier.train(train_set)`{{execute}}
-
-
-

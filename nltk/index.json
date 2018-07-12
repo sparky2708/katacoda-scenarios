@@ -30,18 +30,6 @@
     {
       "title": "Entity/Phrase Extraction",
       "text": "entity_extract.md"
-    },
-    {
-      "title": "CASE STUDY: Read Movie Data For Sentiment Analysis",
-      "text": "sentiment_analysis_reviews.md"
-    },
-    {
-      "title": "CASE STUDY: Sentiment Analysis Features Setup",
-      "text": "sentiment_analysis_features2.md"
-    },
-    {
-      "title": "CASE STUDY: Sentiment Analysis Classifier",
-      "text": "sentiment_analysis_classifier.md"
     }],
     "intro": {
       "text": "intro.md",
