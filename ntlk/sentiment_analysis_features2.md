@@ -2,11 +2,14 @@
 
 Let's create a feature function that will find all words used in positive and negative reviews:
 
+Positive Reviews:
 `pos_reviews = []
 for fileid in movie_reviews.fileids('pos'):
     words = movie_reviews.words(fileid)
-    pos_reviews.append(words)
-neg_reviews = []
+    pos_reviews.append(words)`{{execute}}
+
+Negative Reviews:
+`neg_reviews = []
 for fileid in movie_reviews.fileids('neg'):
     words = movie_reviews.words(fileid)
     neg_reviews.append(words)`{{execute}}
