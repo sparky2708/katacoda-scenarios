@@ -12,7 +12,7 @@ def read_review_words():
     return documents
 
 def get_review_raw(doc):
-    print doc[2]
+    return doc[2]
     
 def get_review_sentiment(doc):
     return doc[1]
