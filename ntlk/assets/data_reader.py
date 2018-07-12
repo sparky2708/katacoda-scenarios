@@ -2,12 +2,12 @@ from nltk.corpus import movie_reviews
 from nltk.corpus import stopwords
 import string
 
-def read_reviews():
+def read_review_words():
     documents = []
  
     for category in movie_reviews.categories():
         for fileid in movie_reviews.fileids(category):
-            documents.append((movie_reviews.words(fileid), category))
+            documents.append(movie_reviews.raw(file_id),movie_reviews.words(fileid), category))
 
     return documents
 
