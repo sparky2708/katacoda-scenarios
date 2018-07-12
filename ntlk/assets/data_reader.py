@@ -1,6 +1,4 @@
 from nltk.corpus import movie_reviews
-from nltk.corpus import stopwords
-import string
 
 def read_reviews():
     documents = []
