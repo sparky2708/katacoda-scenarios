@@ -17,8 +17,8 @@ Let's take a closer look at the words that are present in the English language:
 
 `stopwords.words('english')[0:10]`{{execute}}
 
-Using the stopwords let's build a simple language identifier that will count how many words in our sentence are found
-in each of the stop word lists. i.e. let's examine each word in our sentence to see how many stop words it contains:
+Using the stopwords let's build a simple language identifier that will count how many words in our sentence appear in
+a particular language's stop word list as stop words are very common generally:
 
 `from nltk import wordpunct_tokenize
 from nltk.corpus import stopwords
