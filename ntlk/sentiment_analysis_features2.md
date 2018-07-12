@@ -3,6 +3,7 @@
 Let's create a feature function that will find all words used in positive and negative reviews:
 
 Positive Reviews:
+
 `from nltk.corpus import movie_reviews 
 pos_reviews = []
 for fileid in movie_reviews.fileids('pos'):
@@ -10,6 +11,7 @@ for fileid in movie_reviews.fileids('pos'):
     pos_reviews.append(words)`{{execute}}
 
 Negative Reviews:
+
 `from nltk.corpus import movie_reviews 
 neg_reviews = []
 for fileid in movie_reviews.fileids('neg'):
@@ -34,11 +36,13 @@ def document_features(words):
 Let's now create a feature set:
 
 Positive Reviews:
+
 `pos_reviews_set = []
 for words in pos_reviews:
     pos_reviews_set.append((document_features(words), 'pos'))`{{execute}}
 
 Negative Reviews:
+
 `neg_reviews_set = []
 for words in neg_reviews:
     neg_reviews_set.append((document_features(words), 'neg'))`{{execute}}
