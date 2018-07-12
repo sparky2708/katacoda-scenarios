@@ -15,9 +15,11 @@ Let's define a feature function that checks if the words in the movie review are
 the word features list:
 
 `def document_features(document):
-    # "set" function will remove repeated/duplicate tokens in the given list
     document_words = set(document)
-   `{{execute}}
+    features = {}
+    for word in word_features:
+        features["contains(%s)" % word] = (word in document_words)
+    return features`{{execute}}
     
 Let's now create a feature set:
 
