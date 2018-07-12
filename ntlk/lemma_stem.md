@@ -21,9 +21,10 @@ wordnet_lemmatizer = WordNetLemmatizer()`{{execute}}
 
 Let's see how the lemmatizer deals with the same cases:
 
-`wordnet_lemmatizer.lemmatize("run", "n")
-wordnet_lemmatizer.lemmatize("ran", "v")
-wordnet_lemmatizer.lemmatize("running", "adv")
+`from nltk.corpus import wordnet
+wordnet_lemmatizer.lemmatize("run", wordnet.VERB)
+wordnet_lemmatizer.lemmatize("ran", wordnet.VERB)
+wordnet_lemmatizer.lemmatize("running", wordnet.VERB)
 wordnet_lemmatizer.lemmatize("geese")
 wordnet_lemmatizer.lemmatize("goose")`{{execute}}
 
