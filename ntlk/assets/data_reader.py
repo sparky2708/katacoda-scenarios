@@ -7,7 +7,7 @@ def read_reviews():
  
     for category in movie_reviews.categories():
         for fileid in movie_reviews.fileids(category):
-            documents.append(movie_reviews.words(fileid), category, movie_reviews.raw(fileid))
+            documents.append((movie_reviews.words(fileid), category, movie_reviews.raw(fileid)))
 
     return documents
 
