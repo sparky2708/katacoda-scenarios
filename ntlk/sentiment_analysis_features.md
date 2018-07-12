@@ -17,13 +17,13 @@ the word features list:
 `def document_features(document):
     document_words = set(document)
     features = {}
-    for word in word_features:
-        features["contains(%s)" % word] = (word in document_words)
+    for word in all_cleaned_words:
+        features["contains(%s)" % word[0]] = (word[0] in document_words)
     return features`{{execute}}
     
 Let's now create a feature set:
 
-`feature_set = [(document_features(doc), category) for (doc, category, raw) in documents]
+`feature_set = [(document_features(doc), category) for (doc, category, raw) in reviews]
 print (feature_set[0])`{{execute}}
 
 Let's use the first 400 as our training set and the remainder as our training set
