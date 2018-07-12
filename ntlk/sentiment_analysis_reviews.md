@@ -17,7 +17,7 @@ Let's look at a few movie reviews to get a feel of the text
 
 `import data_reader
 movie_review_idx = 123
-print(data_reader.get_review_category(reviews[movie_review_idx]))
+print(data_reader.get_review_sentiment(reviews[movie_review_idx]))
 print(data_reader.get_review_raw(reviews[movie_review_idx]))`{{execute}}
 
 
