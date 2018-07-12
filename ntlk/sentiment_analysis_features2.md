@@ -22,6 +22,7 @@ the word features list:
 `from nltk.corpus import stopwords
 import string
 def pos_neg_feature(words):
+    stopwords_english = stopwords.words('english')
     words_clean = []
     for word in words:
         word = word.lower()
