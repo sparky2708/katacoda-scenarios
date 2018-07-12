@@ -1,8 +1,15 @@
-To start working with Python use the following command:
-
-`python`{{execute}}
 
 Let's read the movie reviews that are supplied as a sample corpus within NLTK.
+Each movie review is marked with a 'pos' or 'neg' rating:
+
+from nltk.corpus import movie_reviews 
+ 
+`print (len(movie_reviews.fileids())) 
+print (movie_reviews.categories())
+print (len(movie_reviews.fileids('pos')))
+print (len(movie_reviews.fileids('neg')))`{{execute}}
+
+
 
 `import data_reader
 movie_reviews = data_reader.read_reviews()`{{execute}}
