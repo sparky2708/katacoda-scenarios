@@ -21,7 +21,7 @@ the word features list:
 
 `from nltk.corpus import stopwords
 import string
-def pos_neg_feature(words):
+def document_features(words):
     stopwords_english = stopwords.words('english')
     words_clean = []
     for word in words:
@@ -36,12 +36,12 @@ Let's now create a feature set:
 Positive Reviews:
 `pos_reviews_set = []
 for words in pos_reviews:
-    pos_reviews_set.append((pos_neg_feature(words), 'pos'))`{{execute}}
+    pos_reviews_set.append((document_features(words), 'pos'))`{{execute}}
 
 Negative Reviews:
 `neg_reviews_set = []
 for words in neg_reviews:
-    neg_reviews_set.append((pos_neg_feature(words), 'neg'))`{{execute}}
+    neg_reviews_set.append((document_features(words), 'neg'))`{{execute}}
 
 Let's use the first 200 pos & 200 neg reviews as our test set and the rest as our training set
 
