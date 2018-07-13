@@ -1,6 +1,6 @@
 
 
-Let's create a feature function that will classify by using the words found in positive and negative reviews:
+Let's create a feature function that will classify by using the words found in positive reviews and then with words found in negative reviews:
 
 Positive Reviews:
 
@@ -35,13 +35,13 @@ def document_features(words):
     
 Let's now create a feature set:
 
-Positive Reviews:
+Positive Reviews Feature Set:
 
 `pos_reviews_set = []
 for words in pos_reviews:
     pos_reviews_set.append((document_features(words), 'pos'))`{{execute}}
 
-Negative Reviews:
+Negative Reviews Feature Set:
 
 `neg_reviews_set = []
 for words in neg_reviews:

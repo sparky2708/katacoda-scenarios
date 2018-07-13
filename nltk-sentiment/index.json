@@ -30,6 +30,14 @@
     {
       "title": "Sentiment Analysis Classifier",
       "text": "sentiment_analysis_classifier.md"
+    },
+	{
+      "title": "Sentiment Analysis Features Setup (Unigrams & Bigrams)",
+      "text": "sentiment_analysis_features3.md"
+    },
+    {
+      "title": "Sentiment Analysis Classifier",
+      "text": "sentiment_analysis_classifier.md"
     }],
     "intro": {
       "text": "intro.md",
