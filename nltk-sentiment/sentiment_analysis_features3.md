@@ -1,5 +1,23 @@
 Let's try to create a unigram and bi-gram classifier to see if we improve classification:
 
+Again we'll be using positive and negative reviews:
+
+Positive Reviews:
+
+`from nltk.corpus import movie_reviews 
+pos_reviews = []
+for fileid in movie_reviews.fileids('pos'):
+    words = movie_reviews.words(fileid)
+    pos_reviews.append(words)`{{execute}}
+
+Negative Reviews:
+
+`from nltk.corpus import movie_reviews 
+neg_reviews = []
+for fileid in movie_reviews.fileids('neg'):
+    words = movie_reviews.words(fileid)
+    neg_reviews.append(words)`{{execute}}
+
 First we create a feature extractor for 1-grams
 `from nltk.corpus import stopwords
 def unigram_feature_extractor(words):  

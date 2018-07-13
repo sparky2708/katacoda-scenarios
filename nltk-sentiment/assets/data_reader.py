@@ -25,12 +25,11 @@ def get_all_words(reviews):
     all_words = [word.lower() for word in movie_reviews.words()]
     return all_words
 
-def clean_all_words(all_words):
+def clean_all_words(all_words, stopwords = stopwords.words('english')):
     all_words_clean = []
-    stopwords_english = stopwords.words('english')
-    
+        
     for word in all_words:
-        if word not in stopwords_english and word not in string.punctuation:
+        if word not in stopwords and word not in string.punctuation:
             all_words_clean.append(word)
  
     return all_words_clean
