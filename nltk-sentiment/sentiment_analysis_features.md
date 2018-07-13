@@ -11,8 +11,8 @@ Least Common Words:
 
 `print (most_common_words[1990:])`{{execute}}
 
-Let's define a feature function that checks if the words in the movie review are present in
-the word features list (we will ignore converting all the words to lowercase as it increases the training time and doesn't improve performance a great deal):
+Let's define a feature function that checks if the words in the movie review are present in the word features list 
+Since the movie reviews have already been lowercased in the corpus we will ignore converting all the words to lowercase but if provide custom sentences to classify we have to remember to keep them in lowercase:
 
 `def document_features(document):
     document_words = set(document)

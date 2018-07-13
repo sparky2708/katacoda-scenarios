@@ -1,10 +1,10 @@
 Let's create a text string we will use for determining language
 
-ENGLISH:
+**ENGLISH**:
 `text="That's thirty minutes away. I'll be there in ten."`{{execute}}
-FRENCH:
+**FRENCH**:
 `text="Après avoir rencontré Theresa May, le président américain devait rejoindre le palais de Windsor pour prendre le thé avec la reine Elizabeth II."`{{execute}}
-RUSSIAN:
+**RUSSIAN**:
 `text="Более 50 тысяч старых квартир выставили на продажу в Подмосковье"`{{execute}}
 
 Now, let's tokenize the text using the WordPunct tokenizer because we would like the punctuation marks to be exluded from the words:
