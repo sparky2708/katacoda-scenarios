@@ -6,8 +6,8 @@ def unigram_feature_extractor(words):
 	stopwords_to_use = stopwords.words('english')
     cleaned_words = data_reader.clean_all_words(words, stopwords_to_use)
     words_dictionary = dict([word, True] for word in words)    
-    return words_dictionary`
-	{{execute}}
+    return words_dictionary
+	`{{execute}}{{execute}}
 
 Then we create a feature extractor for bi-grams
 `from nltk import ngrams
@@ -20,8 +20,8 @@ def ngram_feature_extractor(words, n=2):
     for item in iter(ngrams(words, n)):
         words_ng.append(item)
     words_dictionary = dict([word, True] for word in words_ng)    
-    return words_dictionary`
-	{{execute}}
+    return words_dictionary
+	`{{execute}}
 
 Let's put the 2 feature extractors that we created for 1-grams and 2-grams above into a single feature extractor that we will use to classify a review
 
