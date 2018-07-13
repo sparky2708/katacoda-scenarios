@@ -14,8 +14,7 @@ Least Common Words:
 Let's define a feature function that checks if the words in the movie review are present in
 the word features list:
 
-`
-def document_features(document):
+`def document_features(document):
     document_words = set(document)
 	#document_words = [word.lower() for word in document_words]   #too slow and doesn't change the results much
     word_features = [item[0] for item in most_common_words]

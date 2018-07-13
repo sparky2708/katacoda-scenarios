@@ -8,8 +8,8 @@ print (accuracy)`{{execute}}
 
 Testing the classifier to see how well it works with some reviews:
 
-NEGATIVE REVIEW: `my_review = "I hated the film. It was a disaster. Poor direction, bad acting."`{{execute}}
-POSITIVE REVIEW: `my_review = "It was a wonderful and amazing movie. I loved it. Best direction, good acting."`{{execute}}
+**NEGATIVE REVIEW**: `my_review = "I hated the film. It was a disaster. Poor direction, bad acting."`{{execute}}
+**POSITIVE REVIEW**: `my_review = "It was a wonderful and amazing movie. I loved it. Best direction, good acting."`{{execute}}
 
 Let's see what happens:
 
