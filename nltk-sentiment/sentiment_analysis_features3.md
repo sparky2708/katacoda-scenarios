@@ -46,7 +46,7 @@ Let's put the 2 feature extractors that we created for 1-grams and 2-grams above
 `from nltk import ngrams
 def document_features(words, n=2):
     unigram_features = unigram_feature_extractor(words)
-    bigram_features = ngram_feature_extractor(words)
+    bigram_features = ngram_feature_extractor(words, 2)
     all_features = unigram_features.copy()
     all_features.update(bigram_features)
     return all_features
