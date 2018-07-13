@@ -17,6 +17,7 @@ the word features list:
 `
 def document_features(document):
     document_words = set(document)
+	#document_words = [word.lower() for word in document_words]   #too slow and doesn't change the results much
     word_features = [item[0] for item in most_common_words]
     features = {}
     for word in word_features:
@@ -29,7 +30,13 @@ Let's now create a feature set:
 `feature_set = [(document_features(doc), category) for (doc, category, raw) in reviews]
 print (feature_set[0])`{{execute}}
 
-Let's use the first 400 movie reviews as our test set and the remainder as our training set:
+Let's shuffle the features to mix the positive and negative reviews
+so we don't test on a disproportionate amount of positive or negative reviews. Still could happen by chance.
+
+`from random import shuffle 
+shuffle(feature_set)`{{execute}}
+
+From the shuffled list, we will use the first 400 movie reviews as our test set and the remainder as our training set:
 
 `test_set = feature_set[:400]
 print (len(test_set))
