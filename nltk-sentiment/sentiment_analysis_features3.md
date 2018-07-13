@@ -21,8 +21,7 @@ for fileid in movie_reviews.fileids('neg'):
 First we create a feature extractor for 1-grams
 `from nltk.corpus import stopwords
 def unigram_feature_extractor(words):  
-	stopwords_to_use = stopwords.words('english')
-    cleaned_words = data_reader.clean_all_words(words, stopwords_to_use)
+    cleaned_words = data_reader.clean_all_words(words)
     words_dictionary = dict([word, True] for word in words)    
     return words_dictionary
 	`{{execute}}
