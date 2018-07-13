@@ -25,7 +25,7 @@ def get_all_words(reviews):
     all_words = [word.lower() for word in movie_reviews.words()]
     return all_words
 
-def clean_all_words(all_words, stopwords = stopwords.words('english')):
+def clean_all_words(all_words, stopwords):
     all_words_clean = []
         
     for word in all_words:
