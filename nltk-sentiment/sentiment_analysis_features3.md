@@ -8,7 +8,8 @@ Positive Reviews:
 pos_reviews = []
 for fileid in movie_reviews.fileids('pos'):
     words = movie_reviews.words(fileid)
-    pos_reviews.append(words)`{{execute}}
+    pos_reviews.append(words)
+len(pos_reviews)`{{execute}}
 
 Negative Reviews:
 
