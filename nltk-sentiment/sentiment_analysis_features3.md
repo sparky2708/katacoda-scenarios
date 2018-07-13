@@ -28,12 +28,13 @@ def unigram_feature_extractor(words):
 	`{{execute}}
 
 Then we create a feature extractor for bi-grams
-`from nltk import ngrams
+`import data_reader
+from nltk import ngrams
 from nltk.corpus import stopwords
 def ngram_feature_extractor(words, n=2):
-	acceptable_stop_words = ['above', 'below', 'off', 'over', 'under', 'more', 'most', 'such', 'no', 'nor', 'not', 'only', 'so', 'than', 'too', 'very', 'just', 'but']
-	stopwords_to_use = stopwords.words('english') - acceptable_stop_words
-	cleaned_words = data_reader.clean_all_words(words, stopwords_to_use)	
+    acceptable_stop_words = ['above', 'below', 'off', 'over', 'under', 'more', 'most', 'such', 'no', 'nor', 'not', 'only', 'so', 'than', 'too', 'very', 'just', 'but']
+    stopwords_to_use = set(stopwords.words('english')) - set(acceptable_stop_words)
+    cleaned_words = data_reader.clean_all_words(words, stopwords_to_use)    
     words_ng = []
     for item in iter(ngrams(words, n)):
         words_ng.append(item)
