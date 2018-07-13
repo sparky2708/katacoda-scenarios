@@ -27,7 +27,6 @@ def get_all_words(reviews):
 
 def clean_all_words(all_words, stopwords_to_use = stopwords.words('english')):
     all_words_clean = []
-    #stopwords_to_use =  if stopwords_to_use == None else stopwords
 	
     for word in all_words:
         if word not in stopwords_to_use and word not in string.punctuation:
