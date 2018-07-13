@@ -62,7 +62,7 @@ for words in pos_reviews:
 	
 `neg_reviews_set = []
 for words in neg_reviews:
-    neg_reviews_set.append((bag_of_all_words(words), 'neg'))
+    neg_reviews_set.append((document_features(words), 'neg'))
 	`{{execute}}
 	
 Let's use the first 200 positive & 200 negative reviews as our test set and the rest as our training set
