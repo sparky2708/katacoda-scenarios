@@ -1,5 +1,5 @@
-Let's take a look at a sample movie review.
-Notice that there are a lot of punctuation mistakes.
+Let's take a look at a sample movie review from a movie data corpus
+that is included in nlkt:
 
 `import data_reader
 sample_movie_review = data_reader.read_reviews()[123]
