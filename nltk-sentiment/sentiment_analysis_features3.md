@@ -35,7 +35,7 @@ def ngram_feature_extractor(words, n=2):
     stopwords_to_use = set(stopwords.words('english')) - set(acceptable_stop_words)
     cleaned_words = data_reader.clean_all_words(words, stopwords_to_use)    
     words_ng = []
-    for item in iter(ngrams(words, n)):
+    for item in iter(ngrams(cleaned_words, n)):
         words_ng.append(item)
     words_dictionary = dict([word, True] for word in words_ng)    
     return words_dictionary
