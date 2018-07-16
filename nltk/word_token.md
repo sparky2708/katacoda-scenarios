@@ -2,7 +2,7 @@
 In order to do word tokenization we have a few choices of tokenizer.
 Let's set a sentence we will try to tokenize:
 
-`sent = "NATO countries did not commit to Trump's call for 4% spending, sources says"`{{execute}}
+`sent = "NATO countries did not commit to Trump's call for 4% spending, sources say"`{{execute}}
 
 We can use the Penn TreeBank word tokenizer which uses regular expressions to tokenize text:
 
