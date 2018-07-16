@@ -1,4 +1,4 @@
-Let's take a look at the sample review again.
+Let's take a look at a sample movie review.
 Notice that there are a lot of punctuation mistakes.
 
 `import data_reader
