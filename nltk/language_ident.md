@@ -1,7 +1,7 @@
 Let's create a text string we will use for determining language
 
 **ENGLISH**:
-`text="That's thirty minutes away. I'll be there in ten."`{{execute}}
+`text="Just once I'd like someone to call me 'sir' without adding 'you're making a scene.'"`{{execute}}
 **FRENCH**:
 `text="Après avoir rencontré Theresa May, le président américain devait rejoindre le palais de Windsor pour prendre le thé avec la reine Elizabeth II."`{{execute}}
 **RUSSIAN**:
