@@ -1,0 +1,32 @@
+{
+  "title": "Introduction to NLTK",
+  "description": "Introduction to NLTK",
+  "details": {
+    "steps": [
+	{
+      "title": "Setup",
+      "text": "setup.md"
+    },
+    {
+      "title": "Find Tank",
+      "text": "find_tank.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "data_reader.py", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart using `python` command\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "python-nltk"
+  }
+}
