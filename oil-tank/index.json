@@ -19,7 +19,9 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "data_reader.py", "target": "~/"}]
+      "client": [{"file": "google_map_downloader.py", "target": "~/"},
+				 {"file": "hough_transform.py", "target": "~/"}
+	  ]
     }
   },
   "environment": {
