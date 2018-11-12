@@ -20,8 +20,8 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "google_map_downloader.py", "target": "~/"},
-				 {"file": "hough_transform.py", "target": "~/"}
+      "client": [{"file": "hello_world.c", "target": "~/"},
+				 {"file": "heap.c", "target": "~/"}
 	  ]
     }
   },
@@ -30,6 +30,6 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart using `python` command\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "python-nltk"
+    "imageid": "ubuntu"
   }
 }
