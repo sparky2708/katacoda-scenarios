@@ -1,3 +1,5 @@
 To start working with Python use the following command:
 
-`python`{{execute}}
+`sudo apt-get update`{{execute}}
+`sudo apt-get install gcc`{{execute}}
+`sudo apt-get install gdc`{{execute}}
