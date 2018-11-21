@@ -1,6 +1,6 @@
 To start working with Python use the following command:
 
-`docker run -it daa82/gdb-katacoda /bin/bash`{{execute}}
+`docker run -v $(pwd):/workspace -it daa82/gdb-katacoda /bin/bash`{{execute}}
 
 
 Let's compile the code:
