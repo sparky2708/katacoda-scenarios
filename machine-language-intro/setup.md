@@ -1,4 +1,4 @@
-To start working with Python use the following command:
+To start working with let's setup the environment using a DOCKER image:
 
 `docker run -v $(pwd):/workspace -it daa82/gdb-katacoda /bin/bash`{{execute}}
 

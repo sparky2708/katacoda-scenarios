@@ -20,8 +20,8 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "hello_world.c", "target": "~/"},
-				 {"file": "heap.c", "target": "~/"}
+      "client": [{"file": "hello_world.c", "target": "/workspace/"},
+				 {"file": "heap.c", "target": "/workspace/"}
 	  ]
     }
   },
