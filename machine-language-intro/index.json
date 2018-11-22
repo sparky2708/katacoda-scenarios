@@ -20,7 +20,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "hello_world.c", "target": "~/"},
+      "host01": [{"file": "hello_world.c", "target": "~/"},
 				 {"file": "heap.c", "target": "~/"}
 	  ]
     }
