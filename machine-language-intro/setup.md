@@ -5,4 +5,4 @@ To start working with GDB let's setup the environment using a DOCKER image:
 
 Let's compile the code:
 
-`gcc -g -o hello_world hello_world.c`{{execute}}
+`gcc -m32 -o hello_world hello_world.c`{{execute}}
