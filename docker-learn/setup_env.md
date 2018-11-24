@@ -3,7 +3,7 @@ so this learning exercise can be applied to most docker projects
 
 Setup the name of the docker image you will be working on:
 
-`export DOCKER_IMAGE_NAME=gdb-katacoda`{{execute}}
+`export DOCKER_IMAGE_NAME=sample-katacoda`{{execute}}
 
 Setup your username for github:
 
