@@ -4,6 +4,10 @@
   "details": {
     "steps": [
       {
+        "title": "Setup Environment",
+        "text": "setup_env.md"
+      },
+      {
         "title": "Pull Source From Github",
         "text": "github_pull.md"
       },
