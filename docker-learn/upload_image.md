@@ -1,4 +1,4 @@
-To upload the image to docker first you need to login to your account:
+To upload the image to docker first you need to login to your DOCKER account:
 
 `docker login`{{execute}}
 
