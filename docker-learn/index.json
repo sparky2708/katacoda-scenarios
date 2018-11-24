@@ -1,0 +1,54 @@
+{
+  "title": "Docker Image Creation (Work-In-Progress)",
+  "description": "Docker Image Creation (Work-In-Progress)",
+  "details": {
+    "steps": [
+      {
+        "title": "Pull Source From Github",
+        "text": "github_pull.md"
+      },
+      {
+        "title": "Setup image",
+        "text": "setup_image.md"
+      },
+      {
+        "title": "Build image",
+        "text": "build_image.md"
+      },
+      {
+        "title": "Test image",
+        "text": "test_image.md"
+      },
+      {
+        "title": "Upload image",
+        "text": "upload_image.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "hello_world.c",
+          "target": "~/"
+        },
+        {
+          "file": "heap.c",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart using `docker` command\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
