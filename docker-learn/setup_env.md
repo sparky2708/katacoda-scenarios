@@ -5,9 +5,14 @@ Setup the name of the docker image you will be working on:
 
 `export DOCKER_IMAGE_NAME=sample-katacoda`{{execute}}
 
-Setup your username for github:
+Setup your username and email as required for github:
 
 `export GITHUB_USER=sparky2708`{{execute}}
+`export GITHUB_EMAIL=daa82@columbia.edu`{{execute}}
+
+`git config --global user.name ${GITHUB_USER} 
+ && git config --global user.email ${GITHUB_EMAIL}`{{execute}}
+
 
 Setup your username for docker:
 
