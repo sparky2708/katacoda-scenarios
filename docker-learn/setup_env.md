@@ -21,4 +21,4 @@ so this learning exercise can be applied to most docker projects
 	
 4. Check your settings
 
-	`set | grep -E '_USER|_IMAGE'{{execute}}
+	`set | grep -E '_USER|_IMAGE'`{{execute}}
