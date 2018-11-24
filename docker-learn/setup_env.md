@@ -3,7 +3,7 @@ so this learning exercise can be applied to most docker projects
 
 1. Setup the name of the docker image you will be working on:
 
-	`export DOCKER_IMAGE_NAME=NAME_OF_YOUR_DOCKER_IMAGE` (e.g. sample-karacoda)
+	`export DOCKER_IMAGE_NAME=NAME_OF_YOUR_DOCKER_IMAGE` (e.g. sample-katacoda)
 
 2. Setup your username and email as required for github:
 
@@ -13,6 +13,7 @@ so this learning exercise can be applied to most docker projects
 
 	C. `git config --global user.name ${GITHUB_USER} && git config --global user.email ${GITHUB_EMAIL}`{{execute}}
 
+	D. Check your configuration settings: `git config --list | grep user`{{execute}}
 
 3. Setup your username for docker:
 
