@@ -13,8 +13,12 @@ so this learning exercise can be applied to most docker projects
 
 	C. `git config --global user.name ${GITHUB_USER} && git config --global user.email ${GITHUB_EMAIL}`{{execute}}
 
-	D. Check your configuration settings: `git config --list | grep user`{{execute}}
+	D. Check your configuration settings: `git config --list | grep -e 'user|image'`{{execute}}
 
 3. Setup your username for docker:
 
 	A. `export DOCKER_USER=YOUR_DOCKER_USERNAME` (e.g. user123)
+	
+4. Check your settings
+
+	`set | grep -E '_USER|_IMAGE'{{execute}}
