@@ -1,8 +1,3 @@
-To start working with GDB let's setup the environment using a DOCKER image:
+First, let's pull the DOCKER image source code from github:
 
-`docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -v $(pwd):/workspace -it daa82/gdb-katacoda /bin/bash`{{execute}}
-
-
-Let's compile the code:
-
-`gcc -m32 -o hello_world hello_world.c`{{execute}}
+`git https://github.com/sparky2708/docker-images.git`{{execute}}
