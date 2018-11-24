@@ -16,6 +16,10 @@
         "text": "setup_image.md"
       },
       {
+        "title": "Commit to Github",
+        "text": "github_commit.md"
+      },
+      {
         "title": "Build image",
         "text": "build_image.md"
       },
