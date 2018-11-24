@@ -8,6 +8,7 @@ so this learning exercise can be applied to most docker projects
 2. Setup your username and email as required for github:
 
 	A. `export GITHUB_USER=YOUR_GITHUB_USERNAME`
+	
 	B. `export GITHUB_EMAIL=YOUR_GITHUB_EMAIL`
 
 	C. `git config --global user.name ${GITHUB_USER} 
