@@ -5,9 +5,9 @@ To start working with GDB let's setup the environment using a DOCKER image:
 
 Let's compile the code:
 
-`gcc -m32 -o hello_world hello_world.c`{{execute}}
+`gcc -g -m32 -o hello_world hello_world.c`{{execute}}
 
 
 Let's start the debugger:
 
-`gdb hello_world`{{execute}}
+`gdb -q hello_world`{{execute}}
