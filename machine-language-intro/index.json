@@ -8,6 +8,10 @@
       "text": "setup.md"
     },
     {
+      "title": "Disassembly",
+      "text": "disassemble.md"
+    },
+    {
       "title": "Registers",
       "text": "registers.md"
     }
