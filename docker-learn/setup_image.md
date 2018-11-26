@@ -3,6 +3,7 @@ Let's edit the Dockerfile to what you would like your image to contain:
 `vi Dockerfile`{{execute}}
 
 |Command|Description
+| ------ | ------ |
 |i|insert text before cursor, until <Esc> hit|
 |x|delete single character under cursor|
 |dd|delete entire current line|
