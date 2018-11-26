@@ -3,7 +3,7 @@ so this learning exercise can be applied to most docker projects
 
 1. Setup the name of the docker image you will be working on:
 
-	`export DOCKER_IMAGE_NAME=NAME_OF_YOUR_DOCKER_IMAGE` (e.g. sample-katacoda)
+	`export DOCKER_IMAGE_NAME=`NAME_OF_YOUR_DOCKER_IMAGE (e.g. sample-katacoda)
 
 2. Setup your username and email as required for github:
 
@@ -17,7 +17,7 @@ so this learning exercise can be applied to most docker projects
 
 3. Setup your username for docker:
 
-	A. `export DOCKER_USER=YOUR_DOCKER_USERNAME` (e.g. user123)
+	A. `export DOCKER_USER=`YOUR_DOCKER_USERNAME (e.g. user123)
 	
 4. Check your settings
 
