@@ -7,6 +7,10 @@
         "title": "Setup Environment",
         "text": "setup_env.md"
       },
+	  {
+        "title": "Create repo in GitHub",
+        "text": "github_create_repo.md"
+      },
       {
         "title": "Pull Source From Github",
         "text": "github_pull.md"
