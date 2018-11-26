@@ -6,4 +6,4 @@ There are 2 ways to create a GITHUB REPO:
 
 2. You can execute the following CURL script that will create a `docker-images` repo for you on GITHUB:
 
-`curl -u ${GITHUB_USER} https://api.github.com/user/repos -d '{"name":"docker-images"}'{{execute}}
+`curl -u ${GITHUB_USER} https://api.github.com/user/repos -d '{"name":"docker-images"}'`{{execute}}
