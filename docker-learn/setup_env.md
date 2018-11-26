@@ -7,13 +7,13 @@ so this learning exercise can be applied to most docker projects
 
 2. Setup your username and email as required for github:
 
-	A. `export GITHUB_USER=YOUR_GITHUB_USERNAME` (e.g. user123)
+	A. `export GITHUB_USER=`YOUR_GITHUB_USERNAME (e.g. user123)
 	
-	B. `export GITHUB_EMAIL=YOUR_GITHUB_EMAIL` (e.g. user123@gmail.com)
-
-	C. `git config --global user.name ${GITHUB_USER} && git config --global user.email ${GITHUB_EMAIL}`{{execute}}
-
-	D. Check your configuration settings: `git config --list | grep -e 'user|image'`{{execute}}
+	B. `export GITHUB_EMAIL=`YOUR_GITHUB_EMAIL (e.g. user123@gmail.com)
+	
+	C. Set your github config and verify it:
+	
+	`git config --global user.name ${GITHUB_USER} && git config --global user.email ${GITHUB_EMAIL} && git config --list | grep -e 'user'`{{execute}}
 
 3. Setup your username for docker:
 
@@ -21,4 +21,4 @@ so this learning exercise can be applied to most docker projects
 	
 4. Check your settings
 
-	`set | grep -E '_USER|_IMAGE'`{{execute}}
+	`set | grep -E 'DOCKER|GITHUB'`{{execute}}
