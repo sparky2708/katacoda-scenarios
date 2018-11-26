@@ -2,14 +2,14 @@ Let's edit the Dockerfile to what you would like your image to contain:
 
 `vi Dockerfile`{{execute}}
 
-*	i	insert text before cursor, until <Esc> hit
-*	x	delete single character under cursor
-*   dd	delete entire current line
-
-*	:x<Return>	quit vi, writing out modified file to file named in original invocation
-* 	:wq<Return>	quit vi, writing out modified file to file named in original invocation
-* 	:q<Return>	quit (or exit) vi
-*	:q!<Return>	quit vi even though latest changes have not been saved for this vi cal
+|Command|Description
+|i|insert text before cursor, until <Esc> hit|
+|x|delete single character under cursor|
+|dd|delete entire current line|
+|:x<Return>|quit vi, writing out modified file to file named in original invocation|
+|:wq<Return>|quit vi, writing out modified file to file named in original invocation|
+|:q<Return>|quit (or exit) vi|
+|:q!<Return>|quit vi even though latest changes have not been saved for this vi cal|
 
 
 OR YOU CAN ALWAYS USE EMACS:
