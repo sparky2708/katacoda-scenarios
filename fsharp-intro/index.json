@@ -1,0 +1,35 @@
+{
+  "title": "F-Sharp Tutorial (Work-In-Progress)",
+  "description": "F-Sharp Tutorial (Work-In-Progress)",
+  "details": {
+    "steps": [
+      {
+        "title": "Startup",
+        "text": "startup.md"
+      },
+	 
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "sample.fs",
+          "target": "~/"
+        },
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart using `fsharpi` command\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
