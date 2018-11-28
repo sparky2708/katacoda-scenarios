@@ -1,5 +1,6 @@
 **Startup**
 
-To start coding in FSharp let's first startup the interpreter
+To start coding in FSharp let's install and startup the interpreter
 
-`fsharpi`{{execute}}
+`apt-get install fsharp -y && 
+fsharpi`{{execute}}
