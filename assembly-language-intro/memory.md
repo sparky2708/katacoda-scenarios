@@ -18,7 +18,7 @@ How is memory organized:
 
 Here is an example of code that shows each memory segment. To run:
 
-`exit
+`quit
 ./mem_segments`{{execute}}
 
 
