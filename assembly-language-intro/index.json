@@ -14,6 +14,10 @@
     {
       "title": "Registers",
       "text": "registers.md"
+    },
+	{
+      "title": "Debug",
+      "text": "debug.md"
     }
 	],
     "intro": {
