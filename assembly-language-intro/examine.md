@@ -37,7 +37,7 @@ To see which instruction it points to:
 ## Let's now look at another register. 
 For example we have an instruction `0x56555524 <+7>:     push   DWORD PTR [ecx-0x4]`. This pushes the value `ecx-4` on the hardware stack. Let's take a look at the ways to examine that memory address:
 
-* `info register ecx` {{execute}}
+* `info register ecx`{{execute}}
 
 Let's look at the 4 bytes before the address on the ecx register:
 
@@ -57,7 +57,7 @@ Since $1 was set to that location in memory we can now examine it using $1:
 
 Or we can look at the data as a 4-byte word:
 
-* `x/4xw $1`{{execute}}
+* `x/xw $1`{{execute}}
 
 Notice that the bytes are reversed. This is due to the fact that the x86 architecture is little-endian meaning that multi-byte values are going to be reversed (least-significant byte first order)
 

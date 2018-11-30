@@ -22,6 +22,10 @@
 	{
       "title": "Debug",
       "text": "debug.md"
+    },
+	{
+      "title": "Memory Segmentation",
+      "text": "memory.md"
     }
 	],
     "intro": {
