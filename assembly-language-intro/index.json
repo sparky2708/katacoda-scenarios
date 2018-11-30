@@ -16,6 +16,10 @@
       "text": "registers.md"
     },
 	{
+      "title": "Examining Memory",
+      "text": "examine.md"
+    },
+	{
       "title": "Debug",
       "text": "debug.md"
     }
