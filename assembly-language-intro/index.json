@@ -37,7 +37,7 @@
     },
     "assets": {
       "host01": [{"file": "hello_world.c", "target": "~/"},
-				 {"file": "heap.c", "target": "~/"}
+				 {"file": "mem_segments.c", "target": "~/"}
 	  ]
     }
   },
