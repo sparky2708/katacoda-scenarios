@@ -15,3 +15,8 @@ Windows 10 image:
 Ubuntu:
 
 `docker search ubuntu`{{execute}}
+
+
+To download an image:
+
+`docker pull toolboc/windows95`{{execute}}
