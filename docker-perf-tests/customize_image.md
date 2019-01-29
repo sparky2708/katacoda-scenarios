@@ -2,18 +2,18 @@
 
 1. Let's select a base image:
 
-	`from ubuntu:latest`{{execute}}
+	`from ubuntu:latest`
 
 2. Let's have our image contain some libraries:
 
 	* Upgrade Ubuntu:
-		`run apt-get update && apt-get upgrade -y`{{execute}}
+		`run apt-get update && apt-get upgrade -y`
 	* Install some tools: 
-		`run apt-get install -y emacs`{{execute}}
+		`run apt-get install -y emacs`
 	* Install R:
-		`run apt-get install r-base`{{execute}}
+		`run apt-get install r-base`
 
 3. Let's create a workspace directory in our image:
 
 	`run mkdir /workspace
-	 workdir /workspace`{{execute}}
+	 workdir /workspace`
