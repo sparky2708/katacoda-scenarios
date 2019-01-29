@@ -1,4 +1,4 @@
-#Building the DOCKER Image
+# Building the DOCKER Image
 
 To build the DOCKER image execute:
 
@@ -14,7 +14,7 @@ Let's save the image so we can use it locally:
 
 Verify the file was created:
 
-`ls l`{{execute}}
+`ls -l`{{execute}}
 
 Let's cleanup so our environment is clean:
 
