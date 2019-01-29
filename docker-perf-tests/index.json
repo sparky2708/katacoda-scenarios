@@ -4,8 +4,12 @@
   "details": {
     "steps": [
       {
-        "title": "Setup image",
-        "text": "setup_image.md"
+        "title": "Find Base image",
+        "text": "find_image.md"
+      },
+	  {
+        "title": "Customize image",
+        "text": "customize_image.md"
       },
       {
         "title": "Build image",
