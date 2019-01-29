@@ -11,9 +11,9 @@
 	* Install some tools: 
 		`run apt-get install -y emacs`
 	* Install R:
-		`run apt-get install r-base`
+		`run apt-get install -y --no-install-recommends --allow-unauthenticated r-base`
 
 3. Let's create a workspace directory in our image:
 
 	`run mkdir /workspace
-	 workdir /workspace`
+	workdir /workspace`

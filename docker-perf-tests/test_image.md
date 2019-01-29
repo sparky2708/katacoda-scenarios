@@ -1,8 +1,19 @@
 To test the DOCKER image:
 
-`docker run -it ${DOCKER_IMAGE_NAME} /bin/bash`{{execute}}
+Let's look in our directory:
+`ls -la`{{execute}}
 
-Make sure that all your commands work and all your libraries are present.
-When you are done testing your environment type:
+Let's confirm no docker images are currently loaded:
+`docker image ls`{{execute}}
 
+Let's load the docker image we created:
+`docker load < ubuntu-with-r.tar`{{execute}}
+
+Verify:
+`docker image ls`{{execute}}
+
+Run the image:
+`docker run -v $(pwd):/workspace -it ubuntu-with-r /bin/bash`{{execute}}
+
+To Exit the image:
 `exit`{{execute}}
