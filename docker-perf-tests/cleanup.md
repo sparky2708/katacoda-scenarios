@@ -2,7 +2,7 @@
 
 List all containers (only IDs)
 
-	`docker ps -aq`{{execute}}
+`docker ps -aq`{{execute}}
 
 Stop all running containers
 
