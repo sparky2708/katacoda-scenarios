@@ -19,4 +19,4 @@ Ubuntu:
 
 To download an image:
 
-`docker pull toolboc/windows95`{{execute}}
+`docker pull daa82/ubuntu_r-3.0.1`{{execute}}
