@@ -18,4 +18,4 @@ run apt-get update && apt-get upgrade -y`
 3. Let's create a workspace directory in our image:
 
 	`run mkdir /workspace
-	workdir /workspace`
+workdir /workspace`
