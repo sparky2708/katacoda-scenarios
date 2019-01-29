@@ -4,15 +4,16 @@
 
 `docker search daa82`{{execute}}
 
-### Let's load the image that has R-3.0.1 installed:
+Let's load the image that has R-3.0.1 installed:
 
 `docker pull daa82/ubuntu_r-3.0.1`{{execute}}
 
-### What images are now available?
+What images are now available?
 
 `docker image ls`{{execute}}
 
-### Let's verify the images (to exit the container: `exit`{{execute}})
+### Let's verify the images
+(to exit the container: `exit`{{execute}})
 
     * R-3.0.1 Environment:
 `docker run -v $(pwd):/workspace -it daa82/ubuntu_r-3.0.1 R --version`{{execute}}
