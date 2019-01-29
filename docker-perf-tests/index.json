@@ -3,10 +3,6 @@
   "description": "Docker Image Creation and Performance Comparison",
   "details": {
     "steps": [
-	  {
-        "title": "Clean up all images and containers",
-        "text": "cleanup.md"
-      },
       {
         "title": "Find Base image",
         "text": "find_image.md"
@@ -19,13 +15,13 @@
         "title": "Build image",
         "text": "build_image.md"
       },
-      {
-        "title": "Test image",
-        "text": "test_image.md"
+	  {
+        "title": "Clean up all images and containers",
+        "text": "cleanup.md"
       },
       {
-        "title": "Upload image",
-        "text": "upload_image.md"
+        "title": "Load and Test image",
+        "text": "test_image.md"
       }
     ],
     "intro": {
