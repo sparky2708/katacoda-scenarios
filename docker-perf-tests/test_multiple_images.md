@@ -1,4 +1,3 @@
-# TESTING MULTIPLE images on the same host:
 
 ### Let's find another image to load:
 
