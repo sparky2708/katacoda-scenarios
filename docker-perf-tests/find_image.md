@@ -1,4 +1,3 @@
-# Let's find an image to use as our base
 
 Windows 95 image:
 
@@ -17,6 +16,6 @@ Ubuntu:
 `docker search ubuntu`{{execute}}
 
 
-To download an image:
+### To download an image:
 
 `docker pull daa82/ubuntu_r-3.0.1`{{execute}}

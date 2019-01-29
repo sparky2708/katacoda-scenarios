@@ -1,4 +1,3 @@
-# Building the DOCKER Image
 
 To build the DOCKER image execute:
 

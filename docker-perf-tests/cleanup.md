@@ -1,4 +1,3 @@
-# Let's clean up any images/containers that are in this environment so we have a clean environment to work in:
 
 List all containers (only IDs)
 

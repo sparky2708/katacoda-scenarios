@@ -3,8 +3,12 @@
   "description": "Docker Image Creation and Performance Comparison",
   "details": {
     "steps": [
+	  {
+        "title": "Clean up default images in Katacoda",
+        "text": "cleanup.md"
+      },
       {
-        "title": "Find Base image",
+        "title": "Finding Available Images",
         "text": "find_image.md"
       },
 	  {
@@ -16,11 +20,11 @@
         "text": "build_image.md"
       },
 	  {
-        "title": "Clean up all images and containers",
+        "title": "Clean up all images we used",
         "text": "cleanup.md"
       },
       {
-        "title": "Load and Test image",
+        "title": "Load and Test our image",
         "text": "test_image.md"
       },
 	  {

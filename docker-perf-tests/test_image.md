@@ -1,6 +1,5 @@
-LOADING and TESTING the DOCKER image:
 
-Let's look in our directory:
+Let's look in our working directory:
 
 `ls -l`{{execute}}
 
