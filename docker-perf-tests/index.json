@@ -23,6 +23,10 @@
         "title": "Load and Test image",
         "text": "test_image.md"
       }
+	  {
+        "title": "Test Multiple images on the same host",
+        "text": "test_multiple_images.md"
+      }
     ],
     "intro": {
       "text": "intro.md",
