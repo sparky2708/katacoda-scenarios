@@ -14,6 +14,8 @@ run apt-get update && apt-get upgrade -y`
 		`run apt-get install -y emacs`
 	* Install R:
 		`run apt-get install -y --no-install-recommends --allow-unauthenticated r-base-dev`
+	* Install R packages:
+		`run Rscript -e "install.packages('microbenchmark')"`
 
 3. Let's create a workspace directory in our docker image:
 
