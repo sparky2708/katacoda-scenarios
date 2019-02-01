@@ -21,5 +21,5 @@ Create a container from the image and use it interactively (to exit the containe
 
 Alternatively you can just run your script in the container:
 
-`docker run -v $(pwd):/workspace -it ubuntu-with-r Rscript perf_test.R`{{execute}}
+`docker run -v $(pwd):/workspace -it ubuntu-with-r Rscript hello.R`{{execute}}
 
