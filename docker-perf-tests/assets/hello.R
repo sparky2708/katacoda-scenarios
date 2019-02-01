@@ -1,2 +1,2 @@
-print(runif(100))
-print("Hello World!")
+hello <- sprintf("Hello World from %s!", R.version.string) 
+print(hello)
