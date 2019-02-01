@@ -5,11 +5,11 @@
 
 
 Run the performance test on all the environments: 
-	* local machine
+	* local machine (Latest R Environment)
 `Rscript perf_test.R`{{execute}}
 
-	* R-3.0.1 Environment:
-`docker run -v $(pwd):/workspace -it daa82/ubuntu_r-3.0.1 Rscript perf_test.R`{{execute}}
-
-	* Latest R Environment:
+	* Docker container (Latest R Environment):
 `docker run -v $(pwd):/workspace -it ubuntu-with-r Rscript perf_test.R`{{execute}}
+
+	* Docker container (R-3.0.1 Environment)
+microbenchmark package not supported)
