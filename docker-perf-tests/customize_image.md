@@ -15,7 +15,7 @@ run apt-get update && apt-get upgrade -y`
 	* Install R:
 		`run apt-get install -y --no-install-recommends --allow-unauthenticated r-base-dev`
 	* Install R packages:
-		`run Rscript -e "install.packages('microbenchmark')"`
+		`run Rscript -e "install.packages('microbenchmark', repos = 'http://cran.us.r-project.org')"
 
 3. Let's create a workspace directory in our docker image:
 
