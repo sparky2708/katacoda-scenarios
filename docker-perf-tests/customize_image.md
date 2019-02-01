@@ -1,4 +1,5 @@
 
+Put the following in the Dockerfile editor to create your own Docker image
 1. Let's select a base image:
 
 	`from ubuntu:latest`
@@ -14,7 +15,7 @@ run apt-get update && apt-get upgrade -y`
 	* Install R:
 		`run apt-get install -y --no-install-recommends --allow-unauthenticated r-base-dev`
 
-3. Let's create a workspace directory in our image:
+3. Let's create a workspace directory in our docker image:
 
 	`run mkdir /workspace
 workdir /workspace`
