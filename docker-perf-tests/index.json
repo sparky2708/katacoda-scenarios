@@ -30,6 +30,10 @@
 	  {
         "title": "Test Multiple images on the same host",
         "text": "test_multiple_images.md"
+      },
+	  {
+        "title": "Performance Test",
+        "text": "perf_test.md"
       }
     ],
     "intro": {

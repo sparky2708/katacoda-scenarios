@@ -23,7 +23,7 @@ What images are now available?
 ### We can also run scripts in each environment:
 
 	* R-3.0.1 Environment:
-`docker run -v $(pwd):/workspace -it daa82/ubuntu_r-3.0.1 R -f perf_test.R`{{execute}}
+`docker run -v $(pwd):/workspace -it daa82/ubuntu_r-3.0.1 Rscript perf_test.R`{{execute}}
 
 	* Latest R Environment:
-`docker run -v $(pwd):/workspace -it ubuntu-with-r R -f perf_test.R`{{execute}}
+`docker run -v $(pwd):/workspace -it ubuntu-with-r Rscript perf_test.R`{{execute}}
