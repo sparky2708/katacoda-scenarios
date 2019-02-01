@@ -4,7 +4,7 @@
   "details": {
     "steps": [
 	  {
-        "title": "Clean up default images in Katacoda",
+        "title": "Clean up images Pre-Loaded in Katacoda",
         "text": "cleanup.md"
       },
       {
