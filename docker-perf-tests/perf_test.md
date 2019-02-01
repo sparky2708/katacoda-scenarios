@@ -12,4 +12,4 @@ Run the performance test on all the environments:
 `docker run -v $(pwd):/workspace -it ubuntu-with-r Rscript perf_test.R`{{execute}}
 
 	* Docker container (R-3.0.1 Environment)
-microbenchmark package not supported)
+WARNING: microbenchmark package not supported
