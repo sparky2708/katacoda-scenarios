@@ -1,12 +1,13 @@
-packages <- c("microbenchmark")
-if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
-  install.packages(setdiff(packages, rownames(installed.packages())))  
-}
 library(microbenchmark)
 
+### FUNCTION 1 ###
 mean1 <- function(x) mean(x)
+
+### FUNCTION 2 ###
 mean2 <- function(x) sum(x) / length(x)
-x <- runif(1000)
+
+#### MAIN CODE ####
+x <- runif(5000000)
 stopifnot(all.equal(mean1(x), mean2(x)))
 
 microbenchmark(

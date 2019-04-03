@@ -46,10 +46,6 @@
     "assets": {
       "host01": [
         {
-          "file": "check_version.R",
-          "target": "~/"
-        },
-        {
           "file": "perf_test.R",
           "target": "~/"
         },
