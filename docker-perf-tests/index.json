@@ -57,7 +57,7 @@
     }
   },
    "files": [
-	"Dockerfile"
+	"Dockerfile", "hello.R", "perf_test.R"
    ],
   "environment": {
     "uilayout": "editor-terminal",
