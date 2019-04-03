@@ -21,3 +21,7 @@ run apt-get update && apt-get upgrade -y`
 
 	`run mkdir /workspace
 workdir /workspace`
+
+4. Examine the current directory contents:
+
+	`ls -l`{{execute}}

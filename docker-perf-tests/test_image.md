@@ -1,11 +1,11 @@
 
-Let's look in our working directory:
-
-`ls -l`{{execute}}
-
 Let's confirm no docker images are currently loaded:
 
 `docker image ls`{{execute}}
+
+Let's look in our working directory:
+
+`ls -l`{{execute}}
 
 Let's load the docker image we created:
 
