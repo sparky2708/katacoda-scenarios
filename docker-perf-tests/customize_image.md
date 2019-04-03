@@ -11,7 +11,7 @@ Put the following in the Dockerfile editor to create your own Docker image
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 run apt-get update && apt-get upgrade -y`
 	* Install some tools: 
-		`run apt-get install -y emacs`
+		`run apt-get install -y nano`
 	* Install R:
 		`run apt-get install -y --no-install-recommends --allow-unauthenticated r-base-dev`
 	* Install R packages:
