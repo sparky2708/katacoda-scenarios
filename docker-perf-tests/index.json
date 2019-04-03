@@ -8,7 +8,7 @@
         "text": "cleanup.md"
       },
       {
-        "title": "Finding Available Images",
+        "title": "Finding Available Images on Docker Hub",
         "text": "find_image.md"
       },
 	  {
